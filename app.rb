@@ -56,7 +56,7 @@ def generate_text
 end
 
 def generate_attachment
-  replacements = [ ["{W}", ":white_circle:"], ["{U}", ":large_blue_circle:"],["{B}", ":black_circle:"],["{R}", ":red_circle:"],["{G}", ":tennis:"],["{", ""],["}", ""] ]
+  replacements = [ ["{W}", ":white:"], ["{U}", ":blue:"],["{B}", ":black:"],["{R}", ":red:"],["{G}", ":green:"],["{", ""],["}", ""] ]
   if generate_request[0].nil?
     response = ""
   else
